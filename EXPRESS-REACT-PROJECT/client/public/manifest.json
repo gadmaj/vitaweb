@@ -1,0 +1,25 @@
+{
+  "short_name": "gad psvita",
+  "name": "gad psvita",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "psvita.png",
+      "type": "image/png",
+      "sizes": "124x124"
+    },
+    {
+      "src": "psvita.png",
+      "type": "image/png",
+      "sizes": "124x124"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
