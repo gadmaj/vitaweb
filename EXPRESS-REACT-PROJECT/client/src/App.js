@@ -26,10 +26,11 @@ function App() {
           <font className="title" size="+20">PSVITA/GAD TRACKER (WIP)</font>
         </center>
         <div className="image-container">
-          {imageFiles.map((imageFile, index) => (
-            <img className="image" key={index} src={`/images/${imageFile}`} alt={`img-${index}`} />
-          ))}
-        </div>
+  {imageFiles.slice().reverse().map((imageFile, index) => (
+    <img className="image" key={index} src={`/images/${imageFile}`} alt={`img-${index}`} />
+  ))}
+</div>
+
       </body>
     </div>
   );
